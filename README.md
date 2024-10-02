@@ -1,4 +1,4 @@
-# Voiceflow Shopify Demo Extensions
+# Voiceflow PDF Text Extraction | Chat Widget Extension
 
 This repository contains a custom Chat widget extension to allow extracting text from PDFs and sending the content back to the Voiceflow agent.
 
