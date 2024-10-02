@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Widget | Extensions Demo</title>
+    <style>
+      body {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script type="module">
+      import { PDFExtractExtension } from 'SERVER_URL/scripts/extension.js';
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: 'VOICEFLOW_PROJECT_ID' },
+            url: 'VOICEFLOW_GENERAL_RUNTIME_URL',
+            versionID: 'VOICEFLOW_PROJECT_VERSION',
+            user: {
+              name: 'Demo User',
+            },
+            autostart: true,
+            allowDangerousHTML: true,
+            assistant: {
+              extensions: [
+                PDFExtractExtension
+              ],
+            },
+          });
+        };
+        v.src = 'https://cdn.voiceflow.com/widget/bundle.mjs';
+        v.type = 'text/javascript';
+        s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+  </body>
+</html>

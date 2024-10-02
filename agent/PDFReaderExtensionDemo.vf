@@ -1,0 +1,1643 @@
+{
+  "version": {
+    "_version": 11.01,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 3600,
+    "manualSave": false,
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "66e9f738cc90326d546e9b63",
+          "name": "Submit a ticket",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Need help with submitting a ticket",
+              "slots": []
+            },
+            {
+              "text": "Is there a way to submit a ticket?",
+              "slots": []
+            },
+            {
+              "text": "I want to create a ticket",
+              "slots": []
+            },
+            {
+              "text": "Need help with submitting a ticket",
+              "slots": []
+            },
+            {
+              "text": "How do I submit a ticket?",
+              "slots": []
+            },
+            {
+              "text": "Create a ticket",
+              "slots": []
+            },
+            {
+              "text": "Submit a ticket",
+              "slots": []
+            }
+          ],
+          "noteID": "x1cg005dy",
+          "description": "Trigger this intent when the user is asking to submit a ticket or report a bug."
+        },
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Of course",
+              "slots": []
+            },
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "You bet",
+              "slots": []
+            },
+            {
+              "text": "Okay",
+              "slots": []
+            },
+            {
+              "text": "Sure",
+              "slots": []
+            },
+            {
+              "text": "Yes",
+              "slots": []
+            },
+            {
+              "text": "Certainly",
+              "slots": []
+            },
+            {
+              "text": "Absolutely",
+              "slots": []
+            }
+          ],
+          "noteID": "x1cg105jz",
+          "description": "Trigger this intent when the user says yes, or responds in the affirmative."
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Negative",
+              "slots": []
+            },
+            {
+              "text": "Absolutely not",
+              "slots": []
+            },
+            {
+              "text": "I'm afraid not",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No",
+              "slots": []
+            }
+          ],
+          "noteID": "x1cg205y7",
+          "description": "Trigger this intent when the user says no, or responds in the negative."
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "66e999d72d5420af16162e99",
+          "name": "Book a demo",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "book a demo",
+              "slots": []
+            },
+            {
+              "text": "I want to book a demo",
+              "slots": []
+            },
+            {
+              "text": "I want to talk to sales",
+              "slots": []
+            },
+            {
+              "text": "How can I reserve a demo?",
+              "slots": []
+            },
+            {
+              "text": "I'm looking to arrange a demo",
+              "slots": []
+            },
+            {
+              "text": "Is it possible to book a demonstration?",
+              "slots": []
+            },
+            {
+              "text": "I'd like to set up a demo",
+              "slots": []
+            },
+            {
+              "text": "Can I schedule a demo?",
+              "slots": []
+            }
+          ],
+          "noteID": "x1cg305yg",
+          "description": "Trigger this intent when the user wants to book a demo. However, don't trigger this intent if the user asks about pricing."
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "id": "cm1729z6g01ya3b7xmgnv5yop",
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I didn’t get that. Please try again."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "messages": {
+        "66fd701d1c08eece9ce5a0ef": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Please select your PDF"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66fd70871c08eece9ce5a132": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "text": "{debug}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "66fd72321c08eece9ce5a2ff": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Not able to extract content from the PDF."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "PDF Reader Extension | DEMO",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "66fd701d1c08eece9ce5a0ef",
+          "66fd70871c08eece9ce5a132",
+          "66fd72321c08eece9ce5a2ff"
+        ],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [],
+        "goToIntentsSet": [],
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "debug": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          }
+        },
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {}
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "settings": {
+      "intentClassification": {
+        "type": "llm",
+        "params": {
+          "model": "claude-3-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "chunks",
+      "KBOutput",
+      "outputCorrectness",
+      "rewriteCounter",
+      "sourceContent2",
+      "sourceTitle2",
+      "sourceTitle1",
+      "sourceContent1",
+      "sourceContent",
+      "sourceTitle",
+      "userQuestion",
+      "conversation_history",
+      "user_question",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "optimizedQuestion",
+      "clarifyingQuestionCheckCounter",
+      "clarifyingQuestionCheck",
+      "clarifyingQuestion",
+      "languageJSON",
+      "AgentPersona",
+      "agentPersona",
+      "KB_output",
+      "output_correctness",
+      "rewrite_counter",
+      "optimized_question",
+      "clarifying_question_check_counter",
+      "clarifying_question_check",
+      "clarifying_question",
+      "language_JSON",
+      "agent_persona",
+      "KB_response",
+      "debug"
+    ],
+    "_id": "66fd6fcc1c08eece9ce59fe6",
+    "updatedAt": "2024-10-02T20:18:57.061Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 3600,
+        "updatedAt": "2024-10-02T16:07:40.319Z"
+      }
+    ],
+    "projectID": "66fd6fcc1c08eece9ce59fe5",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 3600,
+      "variables": [],
+      "menuItems": [],
+      "_id": "66fd6fcc1c08eece9ce59fec",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "66fd6fcc1c08eece9ce59fe6"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66fd701ce4c2889ee1618055",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -736.46,
+                          -1687.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          -660.15,
+                          -1687.97
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -801.0953401359956,
+            -1709.917709815855
+          ]
+        },
+        "66fd701ce4c2889ee1618053": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "66fd701d1c08eece9ce5a0ef",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66fd701ce4c2889ee1618054"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "66fd701ce4c2889ee1618053"
+        },
+        "66fd701ce4c2889ee1618055": {
+          "type": "block",
+          "data": {
+            "name": "PDF Reader",
+            "steps": [
+              "66fd701ce4c2889ee1618053",
+              "66fd7028e4c2889ee161805c"
+            ],
+            "color": "#56b365"
+          },
+          "nodeID": "66fd701ce4c2889ee1618055",
+          "coords": [
+            -495.146052233938,
+            -1714.970095605397
+          ]
+        },
+        "66fd7028e4c2889ee161805c": {
+          "type": "trace",
+          "data": {
+            "name": "ext_pdfExtract",
+            "_v": 1,
+            "paths": [
+              {
+                "label": "complete",
+                "isDefault": true
+              },
+              {
+                "label": "error",
+                "isDefault": false
+              }
+            ],
+            "payload": {
+              "name": "ext_pdfExtract",
+              "body": "",
+              "bodyType": "json",
+              "scope": "local",
+              "isBlocking": true
+            },
+            "defaultPath": 0,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "66fd7066e4c2889ee1618064",
+                  "id": "66fd7028e4c2889ee161805d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -329.15,
+                          -1520.22
+                        ]
+                      },
+                      {
+                        "point": [
+                          -284.5,
+                          -1520.22
+                        ]
+                      },
+                      {
+                        "point": [
+                          -284.5,
+                          -1684.98
+                        ]
+                      },
+                      {
+                        "point": [
+                          -239.86,
+                          -1684.98
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "66fd7227e4c2889ee1618083",
+                  "type": "",
+                  "target": "66fd722de4c2889ee1618087",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -329.15,
+                          -1465.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          -305.15,
+                          -1465.72
+                        ]
+                      },
+                      {
+                        "point": [
+                          -305.15,
+                          -1402.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          -491.4,
+                          -1402.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          -491.4,
+                          -1362.42
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "66fd7028e4c2889ee161805c"
+        },
+        "66fd7066e4c2889ee1618061": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "debug = last_event.payload.pdfText",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66fd7066e4c2889ee1618062"
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "66fd7066e4c2889ee1618063"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66fd7066e4c2889ee1618061"
+        },
+        "66fd7066e4c2889ee1618064": {
+          "type": "block",
+          "data": {
+            "name": "Debug content",
+            "steps": [
+              "66fd7066e4c2889ee1618061",
+              "66fd7087e4c2889ee161806c"
+            ],
+            "color": "#ce7fcd"
+          },
+          "nodeID": "66fd7066e4c2889ee1618064",
+          "coords": [
+            -74.85823221833365,
+            -1711.9787232209437
+          ]
+        },
+        "66fd7087e4c2889ee161806c": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "66fd70871c08eece9ce5a132",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66fd7087e4c2889ee161806d"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "66fd7087e4c2889ee161806c"
+        },
+        "66fd722de4c2889ee1618085": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66fd722de4c2889ee1618086"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "66fd72321c08eece9ce5a2ff"
+          },
+          "nodeID": "66fd722de4c2889ee1618085"
+        },
+        "66fd722de4c2889ee1618087": {
+          "type": "block",
+          "data": {
+            "name": "Error",
+            "steps": [
+              "66fd722de4c2889ee1618085"
+            ],
+            "color": "#dc8879"
+          },
+          "nodeID": "66fd722de4c2889ee1618087",
+          "coords": [
+            -491.396052233938,
+            -1362.4177098158555
+          ]
+        }
+      },
+      "offsetX": 1200.8762721087967,
+      "offsetY": 1667.9341678526841,
+      "modified": 1701833501,
+      "creatorID": 3600,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "66fd6fcc1c08eece9ce59fed",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "66fd6fcc1c08eece9ce59fe6"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "66e9f738cc90326d546e9b63",
+      "name": "Submit a ticket",
+      "createdByID": 3600,
+      "folderID": null,
+      "description": "Trigger this intent when the user is asking to submit a ticket or report a bug.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "VF.YES",
+      "name": "VF.YES",
+      "createdByID": 3600,
+      "folderID": null,
+      "description": "Trigger this intent when the user says yes, or responds in the affirmative.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "VF.NO",
+      "name": "VF.NO",
+      "createdByID": 3600,
+      "folderID": null,
+      "description": "Trigger this intent when the user says no, or responds in the negative.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 3600,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "66e999d72d5420af16162e99",
+      "name": "Book a demo",
+      "createdByID": 3600,
+      "folderID": null,
+      "description": "Trigger this intent when the user wants to book a demo. However, don't trigger this intent if the user asks about pricing.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    }
+  ],
+  "utterances": [
+    {
+      "id": "66e9f2c5cc90326d546e9978",
+      "text": [
+        {
+          "text": [
+            "Of course"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e9979",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e997a",
+      "text": [
+        {
+          "text": [
+            "You bet"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e997b",
+      "text": [
+        {
+          "text": [
+            "Okay"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e997c",
+      "text": [
+        {
+          "text": [
+            "Sure"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e997d",
+      "text": [
+        {
+          "text": [
+            "Yes"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e9977",
+      "text": [
+        {
+          "text": [
+            "Certainly"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e9949",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e9944",
+      "text": [
+        {
+          "text": [
+            "Negative"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9a",
+      "text": [
+        {
+          "text": [
+            "book a demo"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9b",
+      "text": [
+        {
+          "text": [
+            "I want to book a demo"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9c",
+      "text": [
+        {
+          "text": [
+            "I want to talk to sales"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9d",
+      "text": [
+        {
+          "text": [
+            "How can I reserve a demo?"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9e",
+      "text": [
+        {
+          "text": [
+            "I'm looking to arrange a demo"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162e9f",
+      "text": [
+        {
+          "text": [
+            "Is it possible to book a demonstration?"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162ea0",
+      "text": [
+        {
+          "text": [
+            "I'd like to set up a demo"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e999d72d5420af16162ea1",
+      "text": [
+        {
+          "text": [
+            "Can I schedule a demo?"
+          ]
+        }
+      ],
+      "intentID": "66e999d72d5420af16162e99",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e9946",
+      "text": [
+        {
+          "text": [
+            "Absolutely not"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e9947",
+      "text": [
+        {
+          "text": [
+            "I'm afraid not"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e9948",
+      "text": [
+        {
+          "text": [
+            "No way"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e994b",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e994c",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f287cc90326d546e994d",
+      "text": [
+        {
+          "text": [
+            "No"
+          ]
+        }
+      ],
+      "intentID": "VF.NO",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66e9f2c5cc90326d546e9976",
+      "text": [
+        {
+          "text": [
+            "Absolutely"
+          ]
+        }
+      ],
+      "intentID": "VF.YES",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66eaf6511996156a0678cf6e",
+      "text": [
+        {
+          "text": [
+            "Need help with submitting a ticket"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66eaf65a1996156a0678cf79",
+      "text": [
+        {
+          "text": [
+            "Is there a way to submit a ticket?"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66eaf65a1996156a0678cf7a",
+      "text": [
+        {
+          "text": [
+            "I want to create a ticket"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66eaf6491996156a0678cf64",
+      "text": [
+        {
+          "text": [
+            "Need help with submitting a ticket"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66eaf6491996156a0678cf65",
+      "text": [
+        {
+          "text": [
+            "How do I submit a ticket?"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66f59814917d70188b120edf",
+      "text": [
+        {
+          "text": [
+            "Create a ticket"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    },
+    {
+      "id": "66f59819917d70188b120ee0",
+      "text": [
+        {
+          "text": [
+            "Submit a ticket"
+          ]
+        }
+      ],
+      "intentID": "66e9f738cc90326d546e9b63",
+      "language": "en-us",
+      "createdAt": "2024-10-02T16:07:40.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "66fd701d1c08eece9ce5a0ef",
+      "name": "",
+      "createdByID": 3600,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-10-02T16:09:01.000Z",
+      "updatedAt": "2024-10-02T16:09:04.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "66fd70871c08eece9ce5a132",
+      "name": "",
+      "createdByID": 3600,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-10-02T16:10:48.000Z",
+      "updatedAt": "2024-10-02T16:10:51.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "66fd72321c08eece9ce5a2ff",
+      "name": "",
+      "createdByID": 3600,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-10-02T16:17:55.000Z",
+      "updatedAt": "2024-10-02T16:18:07.000Z",
+      "updatedByID": 3600
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "66fd701d1c08eece9ce5a0f1",
+      "discriminatorID": "66fd701d1c08eece9ce5a0f0",
+      "text": [
+        {
+          "text": [
+            "Please select your PDF"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-10-02T16:09:01.000Z"
+    },
+    {
+      "id": "66fd70871c08eece9ce5a134",
+      "discriminatorID": "66fd70871c08eece9ce5a133",
+      "text": [
+        {
+          "text": [
+            "",
+            {
+              "variableID": "66fd708c1c08eece9ce5a139"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-10-02T16:10:48.000Z"
+    },
+    {
+      "id": "66fd72321c08eece9ce5a301",
+      "discriminatorID": "66fd72321c08eece9ce5a300",
+      "text": [
+        {
+          "text": [
+            "Not able to extract content from the PDF."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-10-02T16:17:55.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "66fd701d1c08eece9ce5a0f0",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66fd701d1c08eece9ce5a0ef",
+      "variantOrder": [
+        "66fd701d1c08eece9ce5a0f1"
+      ],
+      "createdAt": "2024-10-02T16:09:01.000Z"
+    },
+    {
+      "id": "66fd70871c08eece9ce5a133",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66fd70871c08eece9ce5a132",
+      "variantOrder": [
+        "66fd70871c08eece9ce5a134"
+      ],
+      "createdAt": "2024-10-02T16:10:48.000Z"
+    },
+    {
+      "id": "66fd72321c08eece9ce5a300",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66fd72321c08eece9ce5a2ff",
+      "variantOrder": [
+        "66fd72321c08eece9ce5a301"
+      ],
+      "createdAt": "2024-10-02T16:17:55.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T16:07:40.000Z",
+      "updatedByID": 3600
+    },
+    {
+      "id": "66fd708c1c08eece9ce5a139",
+      "name": "debug",
+      "createdByID": 3600,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-10-02T16:10:52.000Z",
+      "updatedAt": "2024-10-02T16:10:52.000Z",
+      "updatedByID": 3600
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Home",
+      "createdByID": 3600,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "This is the main menu of your agent. We recommend keeping it simple and using it to prompt a question from the user.",
+      "createdAt": "2024-10-02T16:07:40.000Z",
+      "updatedAt": "2024-10-02T20:18:42.000Z",
+      "updatedByID": 3600
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "project": {
+    "type": "chat",
+    "name": "PDF Reader Extension | DEMO",
+    "image": "",
+    "teamID": "vrk1JG18j3",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 3600,
+    "updatedBy": 3600,
+    "apiPrivacy": "public",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [
+      {
+        "name": "Message",
+        "palette": {
+          "50": "#f6eaf6",
+          "100": "#f1dcf1",
+          "200": "#eacbea",
+          "300": "#e3b9e3",
+          "400": "#d99dd8",
+          "500": "#ce80cd",
+          "600": "#b667b5",
+          "700": "#915090",
+          "800": "#6a396a",
+          "900": "#432243"
+        },
+        "standardColor": "#ce80cd"
+      }
+    ],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "66fd6fcc1c08eece9ce59fe5",
+    "updatedAt": "2024-10-02T16:18:27.066Z",
+    "knowledgeBase": {
+      "tags": {},
+      "settings": {
+        "summarization": {
+          "model": "claude-3-haiku",
+          "system": "You are an FAQ AI agent. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences.",
+          "temperature": 0.1,
+          "mode": "prompt",
+          "prompt": ""
+        },
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "embeddingModel": {
+          "model": "text-embedding-3-large",
+          "size": 1024
+        }
+      },
+      "faqSets": {},
+      "documents": {}
+    },
+    "devVersion": "66fd6fcc1c08eece9ce59fe6"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": []
+}
