@@ -2,7 +2,7 @@ export const PDFExtractExtension = {
   name: 'PDFExtract',
   type: 'response',
   match: ({ trace }) =>
-    trace.type === 'ext_pdfExtract' || trace.payload.name === 'ext_pdfExtract',
+    trace.type === 'ext_pdfExtract',
   render: ({ trace, element }) => {
     const pdfExtractContainer = document.createElement('div')
     pdfExtractContainer.innerHTML = `
