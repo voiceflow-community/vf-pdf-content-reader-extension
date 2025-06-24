@@ -125,3 +125,7 @@ For more details on the server implementation, refer to the `server.ts` file.
 ## Voiceflow Agent
 
 You can import the `PDFReaderExtensionDemo.vf` agent from the `agent` folder into your Voiceflow workspace to see how to setup and use the extension.
+
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voiceflow-community_vf-pdf-content-reader-extension&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voiceflow-community_vf-pdf-content-reader-extension)
